@@ -1,0 +1,14 @@
+version: "3.7"
+services:
+  grafana:
+    hostname: grafana
+    image: venyunoc/grafana:latest
+    container_name: grafana
+    ports:
+      - "3000:3000"
+    networks:
+      - monitoring
+
+networks:
+  monitoring:
+    external: true
