@@ -1,0 +1,3 @@
+[submodule "weather-monitoring"]
+	path = weather-monitoring
+	url = git@github.com:venyu-noc/weather-monitoring.git
